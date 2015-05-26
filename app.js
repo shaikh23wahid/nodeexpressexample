@@ -18,5 +18,10 @@ app.get('/about', function(req, res) {
     res.render('pages/about');
 });
 
+// about page
+app.get('/angular', function(req, res) {
+    res.render('pages/angulartest');
+});
+
 app.listen(8080);
 console.log('You are communicating to port 8080');
